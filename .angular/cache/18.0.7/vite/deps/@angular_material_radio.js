@@ -10,7 +10,7 @@ import {
   MatRipple,
   MatRippleModule,
   _MatInternalFormField
-} from "./chunk-WVV7EAU3.js";
+} from "./chunk-KCVI4DF5.js";
 import {
   CommonModule
 } from "./chunk-PFII4RDJ.js";
@@ -196,7 +196,6 @@ var _MatRadioGroup = class _MatRadioGroup {
   _touch() {
     if (this.onTouched) {
       this.onTouched();
-      this._changeDetector.markForCheck();
     }
   }
   _updateRadioButtonNames() {
